@@ -2,6 +2,10 @@ So this seemed very difficult at the time, but seems easy here:
 how I created a static web site for miptra.com using Google Cloud
 on Wednesday afternoon, August 16, 2023, at the BPI of Beaubourg
 
+To update the web site, go here:
+https://console.cloud.google.com/storage/browser/www.miptra.com
+and click on UPLOAD FILES
+
   758  ls
   759  mkdir miptra
   760  cd miptra/
