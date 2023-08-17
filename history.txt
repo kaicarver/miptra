@@ -1,0 +1,31 @@
+So this seemed very difficult at the time, but seems easy here:
+how I created a static web site for miptra.com using Google Cloud
+on Wednesday afternoon, August 16, 2023, at the BPI of Beaubourg
+
+  758  ls
+  759  mkdir miptra
+  760  cd miptra/
+  761  cat > index.html
+  762  cat > 404.html
+  763  cat > kai_was_here.html
+  764  sudo apt-get install apt-transport-https ca-certificates gnupg curl sudo
+  765  sudo apt-get update
+  766  sudo apt-get install apt-transport-https ca-certificates gnupg curl sudo
+  767  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+  768  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+  769  sudo apt-get update && sudo apt-get install google-cloud-cli
+  770  gcloud init
+  771  gsutil web set -m index.html -e 404.html gs://www.miptra.com
+  772  ls
+  773  npm install firebase
+  774  npm install -g npm@9.8.1
+  775  sudo npm install -g npm@9.8.1
+  776  npm install firebase
+  777  git status
+  778  ls
+  779  ls -a
+  780  git init
+  781  git status
+  782  git add .
+  783  git status
+  784  git commit -m "first, utterly minimal, version of the web site"
