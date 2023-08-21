@@ -33,3 +33,10 @@ and click on UPLOAD FILES
   782  git add .
   783  git status
   784  git commit -m "first, utterly minimal, version of the web site"
+
+Here's how I authenticated on GitHub to push!
+
+  836  sudo apt install gh
+  837  gh auth login
+  839  git push -u origin master
+
