@@ -34,9 +34,16 @@ and click on UPLOAD FILES
   783  git status
   784  git commit -m "first, utterly minimal, version of the web site"
 
+Mon Aug 21 2023 ~ 11:00 AM
+
 Here's how I authenticated on GitHub to push!
 
   836  sudo apt install gh
   837  gh auth login
   839  git push -u origin master
+
+Tuesday August 22 2023 12:47 PM
+
+OK this is just to test if my Github authentication still works for a push a day later.
+I'm going to say it still works, because if it doesn't, I wasn't able to push...
 
